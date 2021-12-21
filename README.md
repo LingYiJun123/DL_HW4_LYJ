@@ -28,7 +28,8 @@ Remember to put training images in the appropriate directory, and edit directory
 
 ### Recreate results file
 
-Download .pth file from this link
+Download .pth file from this link:
+https://drive.google.com/file/d/1rut6Mx5riBfPDu5yZuswHqjP7Z5owmp5/view?usp=sharing
 
 ```
 python inference.py
