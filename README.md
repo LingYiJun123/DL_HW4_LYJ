@@ -27,14 +27,17 @@ The output val super resolution images are on `training_results` directory.
 Remember to put training images in the appropriate directory, and edit directory path in train.py.
 
 ### Recreate results file
+
+Download .pth file from this link
+
 ```
-python test_image.py
+python inference.py
 
 optional arguments:
 --upscale_factor              super resolution upscale factor [default value is 4]
 --test_mode                   using GPU or CPU [default value is 'GPU'](choices:['GPU', 'CPU'])
 --image_name                  test low resolution image name
---model_name                  generator model epoch name [default value is netG_epoch_4_100.pth]
+--model_name                  generator model epoch name [default value is netG_epoch_4_100.pth, this assignment use the link provided above]
 ```
 The output super resolution image is in HW4_results folder, if it does not exist, mkdir it. 
 
